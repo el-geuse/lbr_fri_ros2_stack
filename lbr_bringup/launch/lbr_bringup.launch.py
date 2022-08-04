@@ -90,7 +90,7 @@ def generate_launch_description():
 
     launch_args.append(DeclareLaunchArgument(
         name="model",
-        default_value="iiwa7",
+        default_value="iiwa14",
         description="Desired LBR model. Use model:=iiwa7/iiwa14/med7/med14."
     ))
 

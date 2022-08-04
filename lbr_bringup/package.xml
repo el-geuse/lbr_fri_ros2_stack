@@ -9,6 +9,8 @@
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
+  <depend>rclpy</depend>
+
   <exec_depend>lbr_description</exec_depend>
   <exec_depend>lbr_hardware</exec_depend>
   <exec_depend>lbr_moveit</exec_depend>
@@ -20,6 +22,7 @@
   <exec_depend>gazebo_ros</exec_depend>
   <exec_depend>gazebo_ros2_control</exec_depend>
   <exec_depend>rviz2</exec_depend>
+  <exec_depend>urdf</exec_depend>
 
   <export>
     <build_type>ament_cmake</build_type>
