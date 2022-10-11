@@ -33,7 +33,7 @@ public class LBRServer extends RoboticsAPIApplication {
 
 	// FRI parameters 
 	private String client_name_;
-	private String[] client_names_ = {"172.31.1.148", "192.170.10.1"};
+	private String[] client_names_ = {"172.31.1.138", "192.170.10.1"};
 	private int send_period_;	
 	private String[] send_periods_ = {"1", "2", "5", "10"};  // send period in ms
 
